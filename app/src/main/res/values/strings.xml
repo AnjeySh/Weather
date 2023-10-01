@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="textLogo">Чекай погоду, мясо</string>
+    <string name="etHint">Ты откуда?</string>
+    <string name="btnText">Жмякаай</string>
+    <string name="noCity">Ты бездомный?</string>
+    <string name="wait">  Жди, мразь</string>
+    <string name="temper">Градусов так </string>
+    <string name="humidity">Душнит на </string>
+    <string name="filsLike">Но по ощущениям, все </string>
+    <string name="hot">ПЕЧЕТ, ПИЗДЕЦ</string>
+    <string name="default_city">Тула</string>
+    <string name="pressure">Давит на все </string>
+    <string name="wind_speed">Ветрилло дует </string>
+    <string name="ed"> м/с</string>
+    <string name="wind_direct">Угол ветра </string>
+    <string name="description">Там типа </string>
+    <string name="coord">Определи, где я</string>
+
+</resources>

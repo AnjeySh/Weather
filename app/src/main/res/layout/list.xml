@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/fst_lot"
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal"
+        android:background="@color/sky">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/temper"
+            android:textAlignment="center"
+            android:textColor="#00695C"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tvBot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:textAlignment="textStart"
+            android:textColor="@color/hintColor"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/sec_lot"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/fst_lot"
+        android:layout_height="50sp"
+        android:orientation="horizontal"
+        android:background="@color/sky">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/filsLike"
+            android:textAlignment="center"
+            android:textColor="#00695C"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tvFlLike"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:textAlignment="textStart"
+            android:textColor="@color/hintColor"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/trh_lot"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_below="@+id/sec_lot"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal"
+        android:background="@color/sky">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/pressure"
+            android:textAlignment="center"
+            android:textColor="#00695C"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvPress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:textAlignment="textStart"
+            android:textColor="@color/hintColor"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</RelativeLayout>
